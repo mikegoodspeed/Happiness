@@ -7,11 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HappinessViewController.h"
 
 @interface HappinessAppDelegate : NSObject <UIApplicationDelegate> {
-
+    UIWindow *window_;
+    HappinessViewController *viewController_;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain) IBOutlet HappinessViewController *viewController;
 
 @end
