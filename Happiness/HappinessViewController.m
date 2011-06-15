@@ -16,9 +16,9 @@
 
 #pragma mark - Properties
 
-@synthesize happiness;
-@synthesize faceView;
-@synthesize slider;
+@synthesize happiness = happiness_;
+@synthesize faceView = faceView_;
+@synthesize slider = slider_;
 
 - (void)setHappiness:(int)value
 {
@@ -26,7 +26,7 @@
         value = 0;
 	if (value > 100) 
         value = 100;
-	happiness = value;
+	happiness_ = value;
 	[self updateUI];
 }
 

@@ -16,7 +16,7 @@
     FaceView *faceView_;
 }
 
-@property (nonatomic) IBOutlet int happiness;
+@property (nonatomic) int happiness;
 @property (nonatomic, retain) IBOutlet FaceView *faceView;
 @property (nonatomic, retain) IBOutlet UISlider *slider;
 
